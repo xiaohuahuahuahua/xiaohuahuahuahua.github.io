@@ -1,0 +1,77 @@
+.big-box{
+	width: 100%;
+	background-color: #f0f0f0;
+}
+.coupon-cen{
+	width: 1002px;
+
+	background: #f6f6f6;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.coupon-cen p{
+	color: #ec3750;
+	font-size: 31px;
+	line-height: 1;
+	margin-top: 17px;
+	margin-bottom: 22px;
+	text-align: center;
+}
+.coupon-new{
+	height: 165px;
+	width: 1002px;
+	display: flex;
+	border-bottom: 1px solid #dddddd;
+	padding-bottom: 26px;
+}
+.coupon-new img{margin-right: 12px;}
+.coupon-cen p:nth-of-type(2){
+	color: #ec3750;
+	font-size: 31px;
+	line-height: 1;
+	margin-top: 22px;
+	margin-bottom: 24px;
+	text-align: center;
+}
+.coupon-old{
+	height: 135px;
+	width: 1002px;
+	display: flex;
+}
+.coupon-old img{margin-right: 9px; margin-bottom: 22px;}
+.elli-cen{
+	width: 1002px;
+	background: #fff;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.elli{
+	height: 217px;
+	width: 979px;
+	border-radius: 150px;
+	background: url(../img/elli.jpg) ;
+	background-position-y: 362px;
+	background-position-x: -448px;
+	margin:19px  20px 18px;
+}
+.project-cen{
+	width: 1002px;
+	background: #f6f6f4;
+	margin: 0 auto;
+	overflow: hidden;
+	display: flex;
+}
+.project-cen img{margin: 8px 17px 6px 0;}
+.title-1{
+	width: 1002px;
+	height:61px;
+	background: #e31436;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.title-1 p{
+	color: #fff;
+	font-size: 24px;
+	text-align: center;
+	line-height: 61px;
+}

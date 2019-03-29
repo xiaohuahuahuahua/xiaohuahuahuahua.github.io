@@ -1,0 +1,233 @@
+/*最顶上导航栏*/
+.center{
+	width: 1075px;
+	height: 30px;
+	margin: 0 auto;
+}
+.bg-head{
+	height: 30px;
+	width: 100%;
+	background: #000000;
+}
+/*最顶上导航栏的左侧*/
+.head-left{
+	height: 30px;
+	width: 262px;
+	float: left;
+	
+}
+.head-left ul{
+	display: flex;
+	height: 30px;
+	width: 262px;
+}
+.head-left li{
+	display: flex;
+	justify-content: space-between;
+}
+.head-left li:nth-of-type(1){margin-right: 20px;}
+.head-left li:nth-of-type(2){margin-right: 15px;}
+.head-left li:nth-of-type(3){margin-right: 34px;}
+.head-left a{
+	font-size: 11px;
+	color:#999999;
+	text-align: center;
+	line-height: 30px;
+	
+	
+}
+/*最顶上导航栏的右侧*/
+#head-right{
+	height: 30px;
+	width: 577px;
+	float: right;
+}
+#head-right ul{
+	height: 30px;
+	width: 577px;
+}
+#head-right li{
+	float: left;
+	height: 30px;
+}
+#head-right li:nth-of-type(1),#head-right li:nth-of-type(2){
+	
+	width: 48px;
+}
+#head-right a{
+	color: #999999;
+	font-size: 11px;
+	text-align: center;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+}
+#head-right li:nth-of-type(1){
+	margin-right: 25px;
+}
+#head-right li:nth-of-type(2){
+	margin-right: 30px;
+}
+#head-right li:nth-of-type(3){
+	width: 59px;
+	margin-right: 32px;
+}
+#head-right li:nth-of-type(4){
+	width: 59px;
+	margin-right: 38px;
+}
+#head-right li:nth-of-type(5){
+	width: 58px;
+	margin-right: 41px;
+}
+#head-right li:nth-of-type(6){
+	width: 70px;
+	margin-right: 35px;
+}
+.arr {
+	margin-left: 2px;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    border-color: #999 transparent transparent;
+    border-style: solid dashed dashed;
+    border-width: 4px 4px 0;
+    
+}
+/*logo、索引框、购物车，的这一行，分三模块写（logo、input-cen、 shopping）*/
+.logo-center{
+	display: flex;
+	height: 100px;
+	width: 1075px; 
+	margin: 0 auto;
+	
+	overflow: hidden;
+}
+.box{
+	width:510px;
+	height:40px;
+	background: #fff;
+	border-radius: 50px ;
+	border: 2px red solid;
+	margin-top: 24px;
+}
+.shuru{
+	height:34px;
+	width: 400px;
+	margin-left: 20px;
+	border: none;
+	outline: medium;
+}
+.box2{
+	
+	border-radius: 50px;
+	float: right;
+	background: red;
+}
+.tijiao{
+	position: relative;
+	height:36px;
+	width: 60px;
+	float: right;
+	border: none;
+	outline: medium;
+	background: red;
+	border-radius: 50px;
+}
+.fdj{
+	position: absolute;top:64px;left:918px;
+}
+.logo{
+	margin-top: 26px;
+	display: block;
+}
+.input-cen{
+	margin-left: 135px;
+	height: 100px;
+	width: 511px;
+	
+}
+/*搜索框下面的列表*/
+.list-02{
+
+	height: 26px;
+	
+	margin-left: 30px;
+}
+.list-02 li{
+	float: left;
+	margin-right: 30px;
+}
+.list-02 li a{
+	font-size: 14px;
+	color:#999999;
+}
+.list-02 li a:hover{color: red;}
+/*列表上的购物车*/
+.shopping{
+	width: 110px;
+	height: 40px;
+	border-radius: 50px;
+	margin-top: 24px;
+	margin-left: 50px;
+	float: right;
+	border: 2px red solid;
+	
+}
+.shop{
+	margin-left: 17px;
+	margin-top: 8px;
+	float: left;
+}
+.shopping p{
+	font-size: 14px;
+	height: 14px;
+	width: 44px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 3px;
+	}
+/*二级列表,logo下面的大列表*/
+.list-cent{
+	height: 40px;
+	width: 1075px; 
+	margin: 0 auto;
+	
+}
+.small-box{
+	height: 40px;
+	width: 164px;
+	background: red;
+	float: left;
+}
+.small-box img{
+	margin: 13px 24px 0 15px;
+	}
+.small-box p{
+	height: 14px;
+	width: 58px;
+	font-size: 14px;
+	color: #fff;
+	display: inline-block;
+	line-height: 40px;
+}
+.list-cent ul{
+	height: 40px;
+	float: left;
+}
+.list-cent ul li{
+	float: left;
+}
+.list-cent ul li a{
+	line-height: 40px;
+	font-size: 14px;
+	color: #000000;
+	font-weight: 800;
+}
+.list-cent ul li a:nth-of-type(1){margin-left: 45px;}
+/*轮播图区*/
+.lunbo{
+	display: block;
+	width: 100%;
+}
